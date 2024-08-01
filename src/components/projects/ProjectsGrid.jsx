@@ -19,7 +19,7 @@ const ProjectsGrid = () => {
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+					Services portofolio
 				</p>
 			</div>
 
@@ -30,10 +30,10 @@ const ProjectsGrid = () => {
                         dark:text-ternary-light
                         text-md
                         sm:text-xl
-                        mb-3
+                        mb-5
                         "
 				>
-					Search projects by title or filter by category
+					Search projects by title
 				</h3>
 				<div
 					className="

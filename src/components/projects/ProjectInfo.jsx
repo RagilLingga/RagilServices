@@ -7,38 +7,7 @@ const ProjectInfo = () => {
 	return (
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
-				{/* Single project client details */}
-				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
-						{singleProjectData.ProjectInfo.ClientHeading}
-					</p>
-					<ul className="leading-loose">
-						{singleProjectData.ProjectInfo.CompanyInfo.map(
-							(info) => {
-								return (
-									<li
-										className="font-general-regular text-ternary-dark dark:text-ternary-light"
-										key={info.id}
-									>
-										<span>{info.title}: </span>
-										<a
-											href="https://stoman.me"
-											className={
-												info.title === 'Website' ||
-												info.title === 'Phone'
-													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-													: ''
-											}
-											aria-label="Project Website and Phone"
-										>
-											{info.details}
-										</a>
-									</li>
-								);
-							}
-						)}
-					</ul>
-				</div>
+	
 
 				{/* Single project objectives */}
 				<div className="mb-7">

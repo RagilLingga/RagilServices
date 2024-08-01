@@ -16,9 +16,9 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		title: 'Project Business Trip Mobile Application Bridgestone',
+		publishDate: 'March 2024',
+		tags: 'Mobile Application Test',
 	},
 	ProjectImages: [
 		{
@@ -38,28 +38,8 @@ export const singleProjectData = {
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
 		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: 'Company Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
+			
 		],
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
