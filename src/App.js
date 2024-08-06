@@ -8,10 +8,12 @@ import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
 
+
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 const ProjectSingle2 = lazy(() => import('./pages/ProjectSingle2.jsx'));
+const ProjectSingle3 = lazy(() => import('./pages/ProjectSingle3.jsx'));
 
 function App() {
 	return (
@@ -29,6 +31,7 @@ function App() {
 								element={<ProjectSingle />}
 							/>
 							<Route path="projects/single-project-2" element={<ProjectSingle2 />} />
+							<Route path="projects/single-project-3" element={<ProjectSingle3 />} />
 						</Routes>
 					</Suspense>
 					<AppFooter />

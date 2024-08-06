@@ -2,6 +2,7 @@
 
 import Bridgestone from '../images/requirement1.png';
 import Bridgestone2 from '../images/requirement4.png';
+import AHM from '../images/requirement8.png'
 
 export const projectsData = [
 	{
@@ -23,6 +24,17 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Project Website Application Bridgestone',
 			publishDate: 'April 2024',
+			tags: 'Website Test Apps',
+		},
+	},
+	{
+		id: 3,
+		title: 'AHM Loyalty Managements',
+		category: 'Website App',
+		img: AHM,
+		ProjectHeader: {
+			title: 'AHM Dashboard Loyalty Managements',
+			publishDate: 'June 2024',
 			tags: 'Website Test Apps',
 		},
 	},
