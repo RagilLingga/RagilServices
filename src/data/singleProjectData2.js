@@ -1,7 +1,7 @@
 // Import images
-import Image1 from '../images/requirement.png';
-import Image2 from '../images/requirement2.png';
-import Image3 from '../images/requirement3.png';
+import Image1 from '../images/requirement6.png';
+import Image2 from '../images/requirement7.png';
+import Image3 from '../images/requirement5.png';
 import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/ui-project-2.jpg';
@@ -14,11 +14,11 @@ import {
 	FiYoutube,
 } from 'react-icons/fi';
 
-export const singleProjectData = {
+export const singleProjectData2 = {
 	ProjectHeader: {
-		title: 'Project Business Trip Mobile Application Bridgestone',
-		publishDate: 'March 2024',
-		tags: 'Mobile Application Test',
+		title: 'Project Website App Bridgestone',
+		publishDate: 'April 2024',
+		tags: 'Website App Test',
 	},
 	ProjectImages: [
 		{
@@ -28,12 +28,12 @@ export const singleProjectData = {
 		},
 		{
 			id: 2,
-			title: 'Test Case',
+			title: 'Defect',
 			img: Image2,
 		},
 		{
 			id: 3,
-			title: 'Test Case',
+			title: 'Bsin',
 			img: Image3,
 		},
 	],
@@ -43,7 +43,7 @@ export const singleProjectData = {
 		],
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
-    	'Ensure the optimal functioning of the Business Trip Bridgestone mobile application through thorough testing, detecting and documenting bugs, and ensuring the security and compatibility of the application across various devices and operating systems.',
+    	'Ensure the Bridgestone web application functions optimally through comprehensive testing, detecting and documenting bugs, and ensuring the security and compatibility of the application across various browsers and platforms.',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
@@ -51,35 +51,36 @@ export const singleProjectData = {
 					'Qase io',
 					'TestRail',
 					'Telegram',
-					'Phone',
-					'Apptim',
+					'Chrome',
+					'Jmeter',
 					'Slack',
 				],
 			},
 		],
 		ProjectDetailsHeading: 'Challenge',
-		ProjectDetails: [
+ProjectDetails: [
     {
         id: 1,
         details:
-            'Design and implement a comprehensive testing plan to ensure all features of the Business Trip Bridgestone mobile application function correctly.',
+            'Designing and implementing a comprehensive testing plan to ensure all features of the Bridgestone web application function correctly.',
     },
     {
         id: 2,
         details:
-            'Identify and document bugs and issues in the application through manual testing.',
+            'Identifying and documenting bugs and issues in the application through manual testing.',
     },
     {
         id: 3,
         details:
-            'Conduct compatibility testing to ensure the application works well on various devices and mobile operating systems using performance testing.',
+            'Conducting compatibility testing to ensure the application works well across various browsers and platforms, including performance testing.',
     },
     {
         id: 4,
         details:
-            'Ensure the application has complete features such as fleet, transportation, and hotel booking, travel schedule management, expense management, and travel reporting.',
+            'Ensuring the application supports business trip management, allowing admins to approve or reject trip requests and cash advances, check security and waste, and manage housekeeping.',
     },
 ],
+
 
 
 		SocialSharingHeading: 'Share This',
